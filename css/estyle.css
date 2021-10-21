@@ -131,6 +131,10 @@ hr{
     transition: 1.5s;
   }
 
+.imggaleria img:hover{
+	transform: scale(1.15);
+} 
+
 .imgartistas{
     margin: 0;
 	padding: 10px;

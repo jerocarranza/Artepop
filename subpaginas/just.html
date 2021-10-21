@@ -8,6 +8,7 @@
     <link rel=stylesheet href="../css/estyle.css">
     <link rel="shortcut icon" href="../img/icons/icon.ico.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel=stylesheet>
+    <link rel=stylesheet href="/lightbox2-2.11.3/lightbox2-2.11.3/src/css/lightbox.css">
     <title>Just what it is... - ArtePop</title>
 </head>
 <body>
@@ -113,15 +114,15 @@
         <h2 style="padding: 50px; color: #BA9676;">Mas obras del artista</h2>
 
       <div class="col-sm-12 col-md-6 col-lg-4 imggaleria">
-       <img src="../img/obras/pequenas/towards.jpg ">
+        <a href="../img/obras/pequenas/towards.jpg" data-lightbox="roadtrip"><img src="../img/obras/pequenas/towards.jpg "></a>
       </div>
 
       <div class="col-sm-12 col-md-6 col-lg-4 imggaleria">
-        <img src="../img/obras/pequenas/dreaming.jpg">
+        <a href="../img/obras/pequenas/dreaming.jpg" data-lightbox="roadtrip"><img src="../img/obras/pequenas/dreaming.jpg"></a>
       </div>
 
       <div class="col-sm-12 col-md-6 col-lg-4 imggaleria">
-        <img src="../img/obras/pequenas/interior.jpg">
+        <a href="../img/obras/pequenas/interior.jpg" data-lightbox="roadtrip"> <img src="../img/obras/pequenas/interior.jpg"></a>
       </div>
 
     </div>
@@ -145,6 +146,22 @@
 
 
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+<script
+              src="https://code.jquery.com/jquery-3.6.0.min.js"
+              integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+              crossorigin="anonymous"></script>
+
+
+<script src="/lightbox2-2.11.3/lightbox2-2.11.3/src/js/lightbox.js"></script>
+
+
+<script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })
+</script>
+
 </body>
